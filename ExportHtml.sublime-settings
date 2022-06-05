@@ -1,0 +1,36 @@
+{
+	// Define configurations for the drop down export menu
+	"html_panel": [
+	    // Browser view color (selections and multi-selections allowed)
+	    {
+	        "Browser View - Color": {
+	            "numbers": true,
+	            "multi_select": true,
+	            // "color_scheme": "Packages/ExportHtml/ColorSchemes/Print Color.sublime-color-scheme"
+	            "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme"
+	        }
+	    },
+
+	    // Browser view color; highlight selections(selections and multi-selections allowed)
+	    {
+	        "Browser View - Color (Selection Highlights)": {
+	            "numbers": true,
+	            "highlight_selections": true,
+	            // "color_scheme": "Packages/ExportHtml/ColorSchemes/Print Color.sublime-color-scheme"
+	            "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme"
+	        }
+	    },
+
+	    // Sublime view color HTML source; (selections and multi-selections allowed)
+	    {
+	        "Sublime View - Color": {
+	            "view_open": true,
+	            "numbers": true,
+	            "wrap": 900,
+	            "multi_select": true,
+	            // "color_scheme": "Packages/ExportHtml/ColorSchemes/Print Color.sublime-color-scheme",
+	            "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme"
+	        }
+	    }
+	]
+}

@@ -1,0 +1,11 @@
+{
+    // supported encoding list, name & code in pair
+    "encoding_list" : [
+        ["Chinese Simplified (GBK)", "GBK"],
+        ["Chinese Simplified (GB2312)", "GB2312"],
+        ["Chinese Simplified (GB18030)", "GB18030"],
+        ["Chinese Traditional (BIG5)", "BIG5"],
+        ["UTF-8", "UTF-8"]
+    ],
+    "convert_on_find": true,
+}

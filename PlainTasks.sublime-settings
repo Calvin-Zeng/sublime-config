@@ -1,0 +1,9 @@
+{
+	"icon_critical": "Packages/User/countdown1.png",
+	"icon_high": "Packages/User/countdown2.png",
+	"icon_low": "Packages/User/countdown3.png",
+	"icon_today": "Packages/User/reminders_and_recalls.png",
+	"icon_due_soon": "Packages/User/clock.png",
+	"icon_past_due": "Packages/User/overtime_rate.png",
+	"draw_indent_guides": true,
+}

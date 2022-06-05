@@ -1,0 +1,93 @@
+{
+	"Default_encoding": "BIG5",
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip"
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"dpi_scale": 1.0,
+	"file_exclude_patterns":
+	[
+		"*.tags*",
+		"*.bak",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.uvproj",
+		"*.uvprojx",
+		"*.emProject",
+		"*.ewp",
+		"*.eww",
+		"*.sublime-workspace",
+		"*.hex",
+		"*.bin"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"app++",
+		"pca*",
+		".repo",
+		"bin",
+		"build_dir",
+		"staging_dir",
+		"dl",
+		"docs",
+		"scripts",
+		"temporary",
+		"toolchain",
+		"tools"
+	],
+	"font_face": "Monaco",
+	"font_size": 13,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"SublimeLinter",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"tab_size": 4,
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": false,
+	"update_check": false,
+	"word_wrap": true
+}

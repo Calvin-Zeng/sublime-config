@@ -1,0 +1,33 @@
+{
+    "selector": "source.c",
+    // "target": "terminus_open",
+    "target": "toggle_terminus_panel",
+    "cancel": "terminus_cancel_build",
+
+    "title": "Build_Result",
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+
+    "auto_close": false,
+    "focus": true,
+    "timeit": false,
+
+    // "post_window_hooks": [
+    //     ["carry_file_to_pane", {"direction": "right"}]`
+    // ],
+
+    // "working_dir": "$folder"
+    // "working_dir": "~/"
+    // "working_dir": "${folder:${project_path:${file_path}}}",
+    // "shell_cmd": "echo "Hello World"",
+
+    "variants": [
+        {
+            "name": "Rebuild",
+            "shell_cmd": "make clean; make"
+        },
+        {
+            "name": "Rebuild & Run",
+            "shell_cmd": "make clean; make && ./work/native-ubuntu20.04-x86_64/bin/test"
+        }
+    ]
+}

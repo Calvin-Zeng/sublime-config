@@ -1,0 +1,19 @@
+{
+    // Only for Windows.
+    // "command": "D:\\Standalone_Tool\\Sublime Text Build 3211 x64\\ctags58\\ctags.exe",
+    "opts" : [
+            "--exclude=.git",
+            "--exclude=build_dir",
+            "--exclude=dl",
+            "--exclude=docs",
+            "--exclude=scripts",
+            "--exclude=stagging_dir",
+            "--exclude=temporary",
+            "--exclude=toolchain",
+            "--exclude=tools",
+            "--extra=+q", "--fields=+Saim",
+            "--c-kinds=+lpx",
+            "--c++-kinds=+lpx",
+            "-R"
+    ],
+}

@@ -1,0 +1,173 @@
+[
+    // Available keyboard shortcut
+    // Ctrl + X - classification.
+    // Ctrl + i
+    { "keys": ["ctrl+i"], "command": "increment_selection" },
+    // Ctrl + [4 - 0]
+    { "keys": ["ctrl+7"], "command": "copy_path" },
+    { "keys": ["ctrl+8"], "command": "alignment" },
+    { "keys": ["ctrl+9"], "command": "insert_datetime"},
+    // prompt_select_workspace
+    { "keys": ["ctrl+0"]/*["ctrl+alt+p"]*/, "command": "prompt_select_workspace", },
+
+    // Ctrl + Alt + X - classification.
+    // Ctrl + Alt + p
+    // Ctrl + Alt + [1 - 0]
+        { "keys": ["ctrl+alt+1"],
+            "command": "insert_snippet",
+            "args": { "name": "Packages/User/Snippets/C/keybinding_snippet/C.tracefunc.sane.sublime-snippet"},
+            "context": [
+                {
+                    "key": "selector",
+                    "operator": "equal",
+                    "operand": "source.c"
+                }
+            ]
+        },
+        { "keys": ["ctrl+alt+2"],
+            "command": "insert_snippet",
+            "args": { "name": "Packages/User/Snippets/C/keybinding_snippet/C.tracestring.sane.sublime-snippet"},
+            "context": [
+                {
+                    "key": "selector",
+                    "operator": "equal",
+                    "operand": "source.c"
+                }
+            ]
+        },
+        { "keys": ["ctrl+alt+3"],
+            "command": "insert_snippet",
+            "args": { "name": "Packages/User/Snippets/C/keybinding_snippet/C.tracevariables.sane.sublime-snippet"},
+            "context": [
+                {
+                    "key": "selector",
+                    "operator": "equal",
+                    "operand": "source.c"
+                }
+            ]
+        },
+        { "keys": ["ctrl+alt+0"],
+            "command": "insert_snippet",
+            "args": { "name": "Packages/User/Snippets/C/keybinding_snippet/C.if_0.sane.sublime-snippet"},
+            "context": [
+                {
+                    "key": "selector",
+                    "operator": "equal",
+                    "operand": "source.c"
+                }
+            ]
+        },
+
+    // Ctrl + Shift + X - classification.
+    // Ctrl + Shift + [4 - 0]
+    {
+        "keys": ["ctrl+shift+alt+;"],
+        "command": "ace_jump_word"
+    },
+    {
+        "keys": ["ctrl+shift+'"],
+        "command": "ace_jump_char"
+    },
+    {
+        "keys": ["ctrl+shift+,"],
+        "command": "ace_jump_line"
+    },
+    {
+        "keys": ["ctrl+shift+."],
+        "command": "ace_jump_within_line"
+    },
+    { "keys": ["ctrl+shift+m"], "command":"expand_region" },
+    // {
+    //  "keys": ["super+u"],
+    //  "command":"expand_region",
+    //  "args": {"undo":true},
+    //  "context": [{ "key":"expand_region_soft_undo" }]
+    // },
+
+    // Fn - classification.
+    // F1
+    // { "keys": ["f1"], "command": "toggle_terminus_panel" },
+    // F2
+    // F3
+    // F4
+    // F5
+    { "keys": ["f5"], "command": "revert" },
+    // F6
+    // F7
+    // F8
+    // F9
+    // F10
+    // F11
+    // F12
+
+    // Ctrl + Fn - classification.
+    // Ctrl + F1
+    // Ctrl + F3
+    // Ctrl + F4
+    // Ctrl + F5
+    // Ctrl + F6
+    // Ctrl + F7
+    // Ctrl + F8
+    // Ctrl + F10
+    // Ctrl + F11
+    // Ctrl + F12
+
+    // Ctrl + o
+    // Plugin - ExportHtml
+    {
+        // Reference:
+        // https://facelessuser.github.io/ExportHtml/usage/
+        "keys": ["ctrl+o"],
+        "command": "export_html",
+        "args": {
+            "numbers": true,
+            "wrap": 900,
+            // "browser_print": true,
+            "multi_select": true,
+            // "highlight_selections": true,
+            // "color_scheme": "Packages/ExportHtml/ColorSchemes/Print Color.sublime-color-scheme",
+            "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+            "style_gutter": true,
+            "table_mode": false,
+            "save_location": "/home/calvin/ExportHtml/",
+            "time_stamp": "_%y%m%d-%H%M%S"
+        },
+        "context": [
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "source.c, source.c++"
+            }
+        ]
+    },
+    // Alt + O
+    {
+        "keys": ["alt+o"],
+        "command": "switch_file_deluxe",
+        "args": {
+            "extensions": [".cpp", ".cxx", ".cc", ".c", "Qt.cpp", "Qt.h", ".hpp", ".hxx", ".h", "_p.h", "_p_p.h", ".ipp", ".inl", ".m", ".mm"],
+            "paths": ["../include", "../inc"]
+        }
+    },
+    // Alt + p
+    { "keys": ["alt+p"], "command": "plain_tasks_open_link","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+
+    // Miscellaneous.
+    // When pressed Ctrl + w, SublimeText will close Terminus plugin   windows.
+    {
+        "keys": ["ctrl+shift+w"],
+        "command": "terminus_close",
+        "context": [{"key": "terminus_view"}]
+    },
+    {
+        "keys": ["ctrl+tab"],
+        "command": "toggle_terminus_panel",
+        // "context": [{"key": "terminus_view"}]
+    },
+    { "keys": ["alt+up"], "command": "move_caret_top" },
+    { "keys": ["alt+m"], "command": "move_caret_middleCommand" },
+    { "keys": ["alt+left"], "command": "move_caret_back", "args": { "nlines": 10}  },
+    { "keys": ["alt+right"], "command": "move_caret_forward", "args": { "nlines": 10} },
+    { "keys": ["alt+down"], "command": "move_caret_bottom"},
+    { "keys": ["ctrl+shift+alt+g"], "command": "expand_selection_to_paragraph"}
+]
