@@ -1,5 +1,16 @@
 {
 	"Default_encoding": "BIG5",
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"theme": "Default.sublime-theme",
+	"dpi_scale": 1.0,
+	"tab_size": 4,
+	"font_size": 13,
+	"font_face": "Monaco",
+	"highlight_line": true,
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"word_wrap": true,
+	"update_check": false,
 	"binary_file_patterns":
 	[
 		"*.dds",
@@ -16,8 +27,6 @@
 		"*.ttf",
 		"*.zip"
 	],
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-	"dpi_scale": 1.0,
 	"file_exclude_patterns":
 	[
 		"*.tags*",
@@ -69,25 +78,14 @@
 		"toolchain",
 		"tools"
 	],
-	"font_face": "Monaco",
-	"font_size": 13,
-	"highlight_line": true,
 	"ignored_packages":
 	[
 		"SublimeLinter",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
 		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
-	"tab_size": 4,
-	"theme": "Default.sublime-theme",
-	"translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": false,
-	"update_check": false,
-	"word_wrap": true
 }

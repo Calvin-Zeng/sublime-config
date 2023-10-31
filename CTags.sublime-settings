@@ -1,6 +1,6 @@
 {
     // Only for Windows.
-    // "command": "D:\\Standalone_Tool\\Sublime Text Build 3211 x64\\ctags58\\ctags.exe",
+    "command": "D:\\Standalone_Tools\\Sublime_Text_build_4_4152_x64\\ctags58\\ctags.exe",
     "opts" : [
             "--exclude=.git",
             "--exclude=build_dir",

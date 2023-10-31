@@ -1,0 +1,16 @@
+// refer to https://github.com/randy3k/SyntaxManager#syntax-manager-for-sublime-text-23
+{
+    "syntaxmgr_settings":[
+        {
+            "scopes": ["source.c", "source.python"],
+            "settings": {
+                "translate_tabs_to_spaces": true,
+                "trim_trailing_white_space_on_save": false
+            },
+            "scopes": ["source.diff"],
+            "settings": {
+                "translate_tabs_to_spaces": false
+            }
+        }
+    ]
+}
